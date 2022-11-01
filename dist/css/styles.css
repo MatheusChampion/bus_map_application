@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+.buttonDiv {
+  position: fixed;
+  z-index: 500;
+  right: 10px;
+  top: 10px;
+}
+
+.close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+}
+
+#button-position {
+  background-color: rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+#weatherTxt {
+  bottom: 0;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px white;
+  color: #363636;
+  font-family: "Merriweather", serif;
+}
+
+#theButtonImg {
+  bottom: 10px;
+  position: relative;
+}
+
+#city {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+#temp {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.container,
+#city {
+  font-family: "Merriweather", serif;
+  color: white;
+  font-size: 10px;
+}
+
+#status-img {
+  width: 90px;
+  position: relative;
+  bottom: 20px;
+}
+
+#status-weather {
+  bottom: 30px;
+  position: relative;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.header {
+  padding: 1px 10px;
+}
+
+#overlay {
+  z-index: 998;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.info {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 10px;
+  right: 10px;
+  width: 400px;
+  height: 200px;
+  background: #020024;
+  background: linear-gradient(36deg, #00d4ff 0%, rgba(9, 9, 121, 0.601922) 28%, #04033c 60%, #020024 100%);
+  border: none;
+  border-radius: 10px;
+}
+
+.info.active {
+  display: inline;
+}
