@@ -1,2 +1,11 @@
-# bus_map_application
-A small project with JavaScript that consumes a live API from the bus location and position it in a map. Also have a weather widget that consumes a different API. All that create as an assignment for my course.
+# Bus Map Application
+
+A small project with JavaScript DOM manipulation, Leaflet (https://leafletjs.com), and SASS.
+
+The application consumes two lives API, one from Halifax's buses (https://hrmbusapi.herokuapp.com) and Halifax's weather (http://api.weatherapi.com). 
+
+The buses are placed according to their live locations on a Leaflet's map.
+
+The weather widget displays the current weather from Halifax.
+
+That was created as part of an assignment for my college.
