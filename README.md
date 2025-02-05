@@ -1,4 +1,4 @@
-# 🚍 Excited to Share My Project: Bus Tracker App in Halifax! 🌍
+# 🚍 Bus Tracker App in Halifax! 🌍
 
 A small project with JavaScript DOM manipulation, Leaflet (https://leafletjs.com), and SASS.
 The application consumes two lives API, one from Halifax's buses (https://hrmbusapi.herokuapp.com) and Halifax's weather (http://api.weatherapi.com). 
